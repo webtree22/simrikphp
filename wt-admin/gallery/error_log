@@ -1,0 +1,6 @@
+[16-Jan-2018 10:49:40 UTC] PHP Notice:  Could not connect to MySQL: No such file or directory in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/db.php on line 17
+[16-Jan-2018 10:49:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/db.php on line 21
+[16-Jan-2018 10:49:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/base.php on line 5
+[16-Jan-2018 10:49:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/base.php on line 6
+[16-Jan-2018 10:49:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/general_permission.php on line 16
+[16-Jan-2018 10:49:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/general_permission.php on line 17

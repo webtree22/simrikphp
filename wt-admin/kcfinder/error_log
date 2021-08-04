@@ -1,0 +1,4 @@
+[21-Mar-2017 09:01:55 UTC] PHP Warning:  POST Content-Length of 33160383 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-May-2018 06:20:13 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3200 bytes) in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/kcfinder/lib/class_image_gd.php on line 199
+[21-May-2018 06:21:07 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3200 bytes) in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/kcfinder/lib/class_image_gd.php on line 199
+[21-Aug-2018 08:58:54 UTC] PHP Warning:  POST Content-Length of 13291604 bytes exceeds the limit of 8388608 bytes in Unknown on line 0

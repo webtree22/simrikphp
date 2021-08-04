@@ -1,0 +1,11 @@
+[10-Jul-2018 03:41:17 UTC] PHP Notice:  Could not connect to MySQL: Access denied for user 'unitedin_dbu'@'localhost' (using password: YES) in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/db.php on line 17
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/db.php on line 21
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/base.php on line 5
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/base.php on line 6
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/nav.php on line 50
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/nav.php on line 51
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/nav.php on line 52
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/nav.php on line 100
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/nav.php on line 101
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/general_permission.php on line 16
+[10-Jul-2018 03:41:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/general_permission.php on line 17

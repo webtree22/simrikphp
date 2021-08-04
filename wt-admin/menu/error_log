@@ -1,0 +1,10 @@
+[13-Apr-2018 06:18:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/getit.php on line 34
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_category.php on line 3
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_category.php on line 4
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_category.php on line 5
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_posts.php on line 3
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_posts.php on line 4
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_posts.php on line 5
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_pages.php on line 4
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_pages.php on line 5
+[13-Apr-2018 06:18:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/unitedinsurancec/public_html/insurance-in-nepal/wt-admin/menu/menu_pages.php on line 6

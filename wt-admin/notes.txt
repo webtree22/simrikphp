@@ -1,0 +1,47 @@
+Category Delete Case:
+====================
+DONE 1. child posts category_sn = 0 (uncategorized)
+DONE 2. child posts ko aru kehe nachalaune
+DONE 3. Yedi yo category ko child category chha bhane subcategory_of=0 garne
+
+Category Update Case
+==================
+Cases: other fields OR subcategory_of field
+DONE 1. do nothing: categoryfields will be as it is, users can later modify categoryfields
+
+Post Add Case
+1. Save post regular (posts table)
+2**. Assign current categoryfields to postdata table, and create forms accordingly for user to supply data.
+
+Pose Delete Case
+1. Delete Post and all related data in postdata table
+
+Post Update Case
+	Case 1: Category is changed
+	1. Keep the categoryfields and data related to previous category as it is.
+	2. Assign categoryfields of new category to this post. XXXXX pardaina 4 will do.
+	3. In update page allow populated categoryfields to be deleted
+	4. At bottom in update page allow NOT ALREADY ASSIGNED category fields to the post.
+	
+Categoryfields Add Case
+====================
+DONE 1. Regular add
+DONE 2. parent category ko custom field add garda, tehi custom field child categories lai pani append garne
+
+Categoryfields Update Case
+====================
+DONE 1. Regular Update
+
+
+Categoryfields Delete Case
+======================
+DONE 1. tara parent category ko custom field delete garda, child ko 'corresponding' custom field lai kehi nagarne
+
+
+
+
+
+When Gallery is deleted 
+==================
+1. All Gallery Pics records are deleted, 
+2. but gallerypics themselves are not deleted, but resourses_use record is deleted if not being used in another gallery.

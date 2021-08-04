@@ -1,0 +1,74 @@
+Notes Display_Order Posts
+=====================
+
+Post Add
+=======
+pre
+1. check no of posts in current category == num
+2. if(new order value > num => new order value = num)
+after save
+3. set old post with new order value = -9 and set the displayoder of this post with new order value
+4. set
+12345
+12-945
+122-945
+123-956
+123456
+
+1. Assign display_order =1 for the current category and resort the rest of the posts of this category by display_order, post_date
+
+Post_delete
+=========
+1. delete and resort the rest of the posts of this category by display_order, post_date
+
+Post Update
+===========
+(from update or index)
+1. check no of posts in current category == num
+2. if(new order value > num => new order value = num)
+3. set old post with new order value = -9 and set the displayoder of this post with new order value
+4. set
+12345
+12-945
+122-945
+123-956
+123456
+
+Uncategorized Post is Categorized
+===========================
+DONE 1. Donot allow ajax Uncategorized Update
+if(category_sn > 0)  Update Category AND
+1. check no of posts in NEW category == num
+2. if(new order value > num => new order value = num)
+3. set old post with new order value = -9 and set the displayoder of this post with new order value
+4. set
+12345
+12-945
+122-945
+123-956
+123456
+
+Notes Display_order Category
+
+Category Add
+DONE 1. By Default assign Last of the current category (update.php) and original if changed to original subcategory_of
+2. Repeat Category Update (save.php)
+
+Category Update
+(subcategory_sn) (save.php)
+1. check no of posts in current subcategory_sn == num 
+2. if(new order value > num => new order value = num)
+3. set old category with new order value = -9 and set the displayoder of this post with new order value
+4. set
+12345
+12-945
+122-945
+123-956
+123456
+
+Category Master is changed
+1. Remember Old subcategory_of 
+2. Change Subcategory_of
+
+
+
