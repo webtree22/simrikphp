@@ -22,7 +22,7 @@
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row align-items-center h-100">
                         <div class="col pb-4">
-                            <div style="background-color: black; padding: 30px; opacity: 0.4; display: inline-block">
+                            <div style="background-color: black; padding: 30px; opacity: 0.4; display: inline-block appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0">
                                 <h1 class="text-color-light font-weight-extra-bold text-13 line-height-2 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">MEDICAL APPOINTMENT</h1>
                                 <h2 class="text-color-light font-weight-extra-bold text-4-5 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'minWindowWidth': 0}">SCHEDULE A MEDICAL APPOINTMENT NOW</h2>
                                 <div class="d-inline-block">
