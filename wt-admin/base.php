@@ -2,23 +2,22 @@
 session_start();
 include("db.php");
 
-	    $listaccount=mysqli_query($dbc,"select * from settings limit 1");
-		while($row = mysqli_fetch_array($listaccount))
-		{
-		$set_hitcount = $row['hitcount'];
-		$set_showhitcount = $row['showhitcount'];	
-		$set_companyname = $row['companyname'];
-		$set_address = $row['address'];
-		$set_city = $row['city'];
-		$set_country = $row['country'];
-		$set_phone = $row['phone'];
-		$set_fax = $row['fax'];
-		$set_email = $row['email'];
-		$set_feedbackemail = $row['feedbackemail'];
-		$set_postperpage = $row['postperpage'];
-		$set_hptitle = $row['hptitle'];
-		}  
-
+	$listaccount=mysqli_query($dbc,"select * from settings limit 1");
+	while($row = mysqli_fetch_array($listaccount))
+	{
+	$set_hitcount = $row['hitcount'];
+	$set_showhitcount = $row['showhitcount'];	
+	$set_companyname = $row['companyname'];
+	$set_address = $row['address'];
+	$set_city = $row['city'];
+	$set_country = $row['country'];
+	$set_phone = $row['phone'];
+	$set_fax = $row['fax'];
+	$set_email = $row['email'];
+	$set_feedbackemail = $row['feedbackemail'];
+	$set_postperpage = $row['postperpage'];
+	$set_hptitle = $row['hptitle'];
+	}  
 
 	
 	//Global Settings
