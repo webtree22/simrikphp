@@ -43,14 +43,14 @@ return array(
 // IMAGE SETTINGS
 
     'imageDriversPriority' => "gd imagick gmagick",
-    'jpegQuality' => 90,
+    'jpegQuality' => 100,
     'thumbsDir' => ".thumbs",
 
-    'maxImageWidth' => 800,
+    'maxImageWidth' => 1366,
     'maxImageHeight' => 0,
 
-    'thumbWidth' => 180,
-    'thumbHeight' => 135,
+    'thumbWidth' => 400,
+    'thumbHeight' => 300,
 
     'watermark' => "",
 

@@ -7,6 +7,7 @@ $pagetitle = $set_companyname;
 
 
 <?php include("slides.php"); ?>
+<?php include("index_bar.php"); ?>
 
 
 

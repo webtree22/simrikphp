@@ -73,7 +73,7 @@ while($row = mysqli_fetch_array($q))
 	}
 	?>
     <script language="javascript">
-	<!--
+
 	function cAnds(s)
 	{
 		s.sBtn.disabled = true;
@@ -91,7 +91,7 @@ while($row = mysqli_fetch_array($q))
 		return true;
 		}
 	}
-	-->
+
 	</script>
 
 	<h2><?php echo $task; ?></h3>

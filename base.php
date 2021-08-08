@@ -26,7 +26,7 @@ $inhc = mysqli_query($dbc, "update settings set hitcount = hitcount+1");
 
 //Global Settings
 $site_title = "WT-Admin";
-$set_sitename = "http://localhost/insurance-in-nepal";
+$set_sitename = "http://localhost/simrik";
 // $set_sitename = "http://www.unitedinsurance.com.np/insurance-in-nepal";
 $base = $set_sitename . "/wt-admin";
 $set_iconsize = 100;

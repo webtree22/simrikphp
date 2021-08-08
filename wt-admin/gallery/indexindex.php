@@ -84,10 +84,11 @@ else
 		
 		$pos = strpos($picpath, "/.thumbs/");
 		// /maxvision/upload/.thumbs/images/July/16base.png		
+
 		if ($pos === false) {
 			//$p = 18;  //variable /maxvision/
 			$p =  8; //web always
-			$p = 27;
+			$p = 15;
 			$newpicpath = substr_replace($picpath, ".thumbs/",$p , 0);
 		} else {
 			$newpicpath = $picpath;
@@ -101,7 +102,7 @@ else
 		?>
         <tr>
         	<td><?php echo $counter; ?></td>
-            <td><img src="<?php echo $newpicpath; ?>" width="80px"></td>
+            <td><img src="<?php echo $newpicpath; ?>" width="200px"></td>
             <td class="hidden-xs hidden-sm"><?php echo $caption; ?></td>
             <td> 
             	<?php echo $display_order; ?> &nbsp; 

@@ -5,7 +5,7 @@
 DEFINE ('DB_USER', 'root');
 DEFINE ('DB_PASSWORD', '');
 DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'unitedinsurancec_utddb');
+DEFINE ('DB_NAME', 'simrik');
 
 
 

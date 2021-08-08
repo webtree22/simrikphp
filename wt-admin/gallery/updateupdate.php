@@ -63,7 +63,7 @@ while($row = mysqli_fetch_array($q))
 			// /maxvision/upload/.thumbs/images/July/16base.png		
 			if ($pos === false) {
 				//$p = 18;  //variable /maxvision/
-				$p =  8; //web always
+				$p =  15; //web always
 				$newpicpath = substr_replace($picpath, ".thumbs/",$p , 0);
 			} else {
 				$newpicpath = $picpath;
@@ -73,7 +73,7 @@ while($row = mysqli_fetch_array($q))
 	}
 	?>
     <script language="javascript">
-	<!--
+
 	function cAnds(s)
 	{
 		s.sBtn.disabled = true;
@@ -91,12 +91,12 @@ while($row = mysqli_fetch_array($q))
 		return true;
 		}
 	}
-	-->
+
 	</script>
 
 	<h2><?php echo $task; ?></h3>
     <br>
-	<form class="form-horizontal" action="savesave.php" method="post" enctype="multipart/form-data" onsubmit="return cAnds(this)">
+	<form class="form-horizontal" action="savesave.php" method="post" enctype="multipart/form-data" onsubmit="cAnds(this)">
       <div class="form-group">
         <label for="description" class="col-sm-2 control-label">Select Image</label>
         <div class="col-sm-10">

@@ -6,14 +6,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Demo Medical | Porto - Responsive HTML5 Template</title>	
+		<title><?php echo $pagetitle; ?></title>	
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="<?php echo $pagetitle; ?>" />
+		<meta name="description" content="<?php echo $pagetitle; ?>">
+		<meta name="author" content="simrik">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="<?php echo $set_sitename; ?>/assets/img/favicon.png" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
@@ -25,7 +25,7 @@
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
 		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/vendor/animate/animate.compat.css">
+		<!-- <link rel="stylesheet" href="assets/vendor/animate/animate.compat.css"> -->
 		<link rel="stylesheet" href="assets/vendor/simple-line-icons/css/simple-line-icons.min.css">
 		<link rel="stylesheet" href="assets/vendor/owl.carousel/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
@@ -34,8 +34,8 @@
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/css/theme.css">
 		<link rel="stylesheet" href="assets/css/theme-elements.css">
-		<link rel="stylesheet" href="assets/css/theme-blog.css">
-		<link rel="stylesheet" href="assets/css/theme-shop.css">
+		<!-- <link rel="stylesheet" href="assets/css/theme-blog.css"> -->
+		<!-- <link rel="stylesheet" href="assets/css/theme-shop.css"> -->
 
 		<!-- Demo CSS -->
 		<link rel="stylesheet" href="assets/css/medical.css">

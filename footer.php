@@ -130,8 +130,8 @@
 
 <!-- Vendor -->
 <script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/jquery.appear/jquery.appear.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<!-- <script src="assets/vendor/jquery.appear/jquery.appear.min.js"></script> -->
+<!-- <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> -->
 <script src="assets/vendor/jquery.cookie/jquery.cookie.min.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jquery.validation/jquery.validate.min.js"></script>
@@ -147,14 +147,13 @@
 <!-- Theme Base, Components and Settings -->
 <script src="assets/js/theme.js"></script>
 
-<!-- Current Page Vendor and Views -->
-<script src="assets/js/views/view.contact.js"></script>
+
 
 <!-- Demo -->
-<script src="assets/js/demos/demo-medical.js"></script>
+<!-- <script src="assets/js/demos/demo-medical.js"></script> -->
 
 <!-- Theme Custom -->
-<script src="assets/js/custom.js"></script>
+<!-- <script src="assets/js/custom.js"></script> -->
 
 <!-- Theme Initialization Files -->
 <script src="assets/js/theme.init.js"></script>

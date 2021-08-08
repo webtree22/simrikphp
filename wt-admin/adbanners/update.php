@@ -78,7 +78,7 @@ include("../general_permission.php");
 	<script src="../ckeditor/ckeditor.js"></script>
 
     <script language="javascript">
-	<!--
+
 	function cAnds(s)
 	{
 		s.sBtn.disabled = true;
@@ -96,7 +96,7 @@ include("../general_permission.php");
 		return true;
 		}
 	}
-	-->
+
 	</script>
 	<h2><?php echo $task; ?></h3>
     <br>
