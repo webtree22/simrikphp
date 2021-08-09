@@ -8,41 +8,9 @@ $pagetitle = $set_companyname;
 
 <?php include("slides.php"); ?>
 <?php include("index_bar.php"); ?>
-
-
-
-<!-- <div class="container">
-  <div class="row" style="margin-top:0">
-
-    <?php //include("index_products.php"); ?>
-
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <br>
-      <?php //include("index_gallery.php"); ?>
-    </div>
-    <div class="col-md-6">
-      <br>
-      <?php //include("index_welcome.php"); ?>
-    </div>
-  </div>
-  <div class="row">
-
-    <div class="row-md-12">
-      <br>
-      <div style="display: block; width: 50%; margin: 0 auto">
-        <div class="fb-page" data-href="https://www.facebook.com/unitedinsurancenepal" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" data-width="500">
-          <div class="fb-xfbml-parse-ignore">
-            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-</div> -->
+<?php include("index_security.php"); ?>
+<?php include("index_team_hk.php"); ?>
+<?php include("index_featured.php"); ?>
 
 <?php $homepage = 1; ?>
 
