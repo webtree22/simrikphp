@@ -453,12 +453,13 @@
 }
 
 #footer {
-		background: #34383d;
+		/* background: #34383d; */
+		background: #cc0000;
 		border: none;
 }
 
 #footer p, #footer a, #footer strong {
-		color: #95989c;
+		color: #FA8072;
 }
 
 #footer a strong {
@@ -472,7 +473,7 @@
 }
 
 #footer .custom-info span:nth-child(1) {
-		color: #95989c;
+		color: #90c9ea;
 }
 
 #footer .footer-copyright {
@@ -481,7 +482,7 @@
 }
 
 #footer .footer-copyright p {
-		color: #95989c;
+		color: #90c9ea;
 }
 
 .social-icons li {

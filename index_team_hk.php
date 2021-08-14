@@ -29,7 +29,7 @@
 				$pn = mysqli_num_rows($q);
 				$c = 0;
 				while ($row = mysqli_fetch_array($q)) {
-
+					$sn = $row['sn'];
 					$title = $row['title'];
 					$names = explode(" - ", $title);
 					$featured_image = $row['featured_image'];
@@ -39,7 +39,7 @@
 
 
 					<div class="pe-3 ps-3">
-						<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+						<a href="#" data-href="index_ajax_single_team.php?sn=<?php echo $sn; ?>" data-ajax-on-page class="text-decoration-none">
 							<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
 								<span class="thumb-info-wrapper m-0">
 									<img src="<?php echo $featured_image; ?>" class="img-fluid" alt="">

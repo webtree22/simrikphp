@@ -264,7 +264,7 @@ pre {
 }
 
 #header .header-top.header-top-default {
-	background: #f7f7f7;
+	background: #aa0000;
 }
 
 #header .header-top.header-top-borders {
@@ -349,7 +349,7 @@ pre {
 }
 
 #header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span {
-	color: #999;
+	color: #fff;
 	font-size: 0.9em;
 	padding: 6px 10px;
 	display: inline-block;

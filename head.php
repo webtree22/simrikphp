@@ -64,10 +64,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item nav-item-borders py-2">
-													<a href="/category/security/1"><i class="fas fa-user-shield text-4 text-color-primary" style="top: 0;"></i> Simrik Security Gurkha Force</a>
+													<a href="/category/security/1"><i class="fas fa-user-shield text-4" style="top: 0; color: #fff"></i> Simrik Security Gurkha Force</a>
 												</li>
 												<li class="nav-item nav-item-borders py-2 pe-1 d-none d-md-inline-flex">
-													<a href="/category/construction/1"><i class="fas fa-city text-4 text-color-primary" style="top: 1px;"></i>  Simrik Construction Engineering Limited</a>
+													<a href="/category/construction/1"><i class="fas fa-city text-4 " style="top: 1px; color: #fff"></i>  Simrik Construction Engineering Limited</a>
 												</li>
 											</ul>
 										</nav>

@@ -11,6 +11,7 @@ $pagetitle = $set_companyname;
 <?php include("index_security.php"); ?>
 <?php include("index_team_hk.php"); ?>
 <?php include("index_featured.php"); ?>
+<?php include("index_testimonials.php"); ?>
 
 <?php $homepage = 1; ?>
 
