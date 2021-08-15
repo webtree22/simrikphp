@@ -71,7 +71,7 @@ while($r = mysqli_fetch_array($q))
                             <img src="<?php echo $featured_image; ?>" alt class="img-fluid" />
                         </div>
                         <div class="feature-box-info">
-                            <h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none"><?php echo $title; ?></a></h4>
+                            <h4 class="font-weight-semibold"><a href="<?php echo $postlink; ?>" class="text-decoration-none"><?php echo $title; ?></a></h4>
                             <p><?php echo htmlspecialchars_decode($excerpt); ?></p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ while($r = mysqli_fetch_array($q))
 
         <div class="row mt-2 pb-4">
             <div class="col-lg-12 text-center">
-                <a class="btn btn-outline btn-quaternary custom-button text-uppercase mt-4 font-weight-bold" href="demo-medical-departments.html">view in detail</a>
+                <a class="btn btn-outline btn-quaternary custom-button text-uppercase mt-4 font-weight-bold" href="<?php echo $set_sitename."/category/security-services/1"; ?>">view in detail</a>
             </div>
         </div>
     </div>

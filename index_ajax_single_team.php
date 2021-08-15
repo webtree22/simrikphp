@@ -27,12 +27,12 @@ while ($row = mysqli_fetch_array($q)) {
 		<!-- <div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 			<div>
 				<span class="img-thumbnail d-block no-borders">
-					<img alt="" class="img-fluid" src="img/demos/medical/doctors/doctor-1.jpg">
+					<img alt="" class="img-fluid" src="img/doctor-1.jpg">
 				</span>
 			</div>
 			<div>
 				<span class="img-thumbnail d-block no-borders">
-					<img alt="" class="img-fluid" src="img/demos/medical/doctors/doctor-1-2.jpg">
+					<img alt="" class="img-fluid" src="img/doctor-1-2.jpg">
 				</span>
 			</div>
 		</div> -->

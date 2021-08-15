@@ -81,7 +81,7 @@
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="demo-medical.html">
+										<a href="<?php echo $set_sitename; ?>">
 											<img alt="Porto" height="50" src="assets/img/simrik_security_gurkha_force_logo.jpeg">
 										</a>
 									</div>

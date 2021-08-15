@@ -11,7 +11,7 @@
                             </blockquote>
                             <div class="testimonial-author">
                                 <p class="text-uppercase">
-                                    <strong>John Smith</strong>
+                                    <strong>Sudeep Gurung</strong>
                                 </p>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
                             </blockquote>
                             <div class="testimonial-author">
                                 <p class="text-uppercase">
-                                    <strong>John Smith</strong>
+                                    <strong>Ji Sung Park</strong>
                                 </p>
                             </div>
                         </div>
