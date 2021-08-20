@@ -105,34 +105,34 @@ while($row = mysqli_fetch_array($q))
 </div>
 
 <!-- Vendor -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/jquery.appear/jquery.appear.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/jquery.cookie/jquery.cookie.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.validation/jquery.validate.min.js"></script>
-<script src="assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-<script src="assets/vendor/jquery.gmap/jquery.gmap.min.js"></script>
-<script src="assets/vendor/lazysizes/lazysizes.min.js"></script>
-<script src="assets/vendor/isotope/jquery.isotope.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="assets/vendor/vide/jquery.vide.min.js"></script>
-<script src="assets/vendor/vivus/vivus.min.js"></script>
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="/assets/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/jquery.validation/jquery.validate.min.js"></script>
+<script src="/assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+<script src="/assets/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+<script src="/assets/vendor/lazysizes/lazysizes.min.js"></script>
+<script src="/assets/vendor/isotope/jquery.isotope.min.js"></script>
+<script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="/assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/assets/vendor/vide/jquery.vide.min.js"></script>
+<script src="/assets/vendor/vivus/vivus.min.js"></script>
 
 <!-- Theme Base, Components and Settings -->
-<script src="assets/js/theme.js"></script>
+<script src="/assets/js/theme.js"></script>
 
 
 
 <!-- Demo -->
-<script src="assets/js/demos/demo-medical.js"></script>
+<script src="/assets/js/demos/demo-medical.js"></script>
 
 <!-- Theme Custom -->
 <!-- <script src="assets/js/custom.js"></script> -->
 
 <!-- Theme Initialization Files -->
-<script src="assets/js/theme.init.js"></script>
+<script src="/assets/js/theme.init.js"></script>
 
 </body>
 
